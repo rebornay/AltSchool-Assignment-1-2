@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form page</title>
+    <link rel="stylesheet" href="./CSS/form.css">
+</head>
+<body>
+    
+    <ul>
+        <li><a href="index.html">HOME</a></li>
+        <li><a href="form.html">FORM</a></li>
+        <li><a href="table.html">TABLE</a></li>
+        <li><a href="media.html">MEDIA</a></li>
+    </ul>
+    <hr>
+    <header class="header">
+        <img src="./ASSETS/IMAGES/altschool_africa-900x0.png" width="100" alt="Alt School logo">
+        <p>
+            Already an AltSchooler?<a href="form.html">Sign In</a>
+        </p>
+    </header>
+    
+    <section>
+        <h2>Signup</h2>
+        <p>Take the next steps to apply at Altschool Africa</p>
+    </section>
+    
+    <div class="container">
+        <form class="form"> 
+        <div class="form-group">
+            <label for="Fname">First Name</label>
+            <input type="text" id="Fname" placeholder="Enter first name">
+        </div>
+        <div class="form-group">
+            <label for="Lname">Last Name</label>
+            <input type="text" id="Lname" placeholder="Enter last name">
+        </div>
+        <div class="form-group">
+            <label for="Gender">Gender</label>
+            <select id="Gender">
+                <option value="" disabled selected hidden>Select gender</option>
+                <option value="M"> Male</option>
+                <option value="F"> Female</option>
+            </select>
+        </div>
+        <div class="form-group">
+            <label for="bday">Date of Birth</label>
+            <input type="date" id="bday">
+        </div>
+        <div class="form-group">
+            <label for="email">Email Address</label>
+            <input type="email" id="email" placeholder="Enter email address">
+        </div>
+        <div class="form-group">
+            <label for="phone">Phone Number</label>
+            <input type="tel" id="phone" placeholder="08012345678">
+        </div>
+        <div class="form-group">
+            <label for="Country">Country</label>
+            <select id="Country">
+                <option value="" disabled selected hidden>Select country</option>
+                <option value="Nig"> Nigeria</option>
+                <option value="US"> United States</option>
+                <option value="UK"> United Kingdom</option>
+            </select>
+        </div>
+        <div class="form-group">
+            <label for="state">State/City of Residence</label>
+            <input type="text" id="state" placeholder="Enter your state of residence">
+        </div>
+        <div class="form-group">
+            <label for="info">How did you hear about us?</label>
+            <select id="info">
+                <option value="" disabled selected hidden>Select channel</option>
+                <option value="X"> Twitter</option>
+                <option value="IG"> Instagram</option>
+                <option value="Facebook"> Facebook</option>
+                <option value="LinkedIn"> LinkedIn</option>
+            </select>
+        </div>
+        <div class="form-group">
+            <label for="password">Password</label>
+            <input type="password" id="password" placeholder="Enter password">
+        </div>
+        <div class="form-group">
+            <label for="confirm-password">Confirm Password</label>
+            <input type="password" id="confirm-password" placeholder="Confirm password">
+        </div>
+        <p>
+            By clicking continue, I agree to the 
+            <a href="terms_of_use.html" target="_blank">Terms of Use</a> 
+            and acknowledge that I have read the 
+            <a href="privacy_policy.html" target="_blank">Privacy Policy</a>.
+        </p>
+        <input type="submit" value="Submit">
+    </form>
+    </div>
+    
+</body>
+</html>
+
+        
